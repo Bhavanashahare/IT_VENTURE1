@@ -73,4 +73,11 @@ class UserController extends Controller
 
         return Response(['data' => 'User Logout successfully.'],200);
     }
+    // public function generateOTP(Request $request)
+    // {
+    //     // OTP generation logic
+
+    //     return response()->json(['message' => 'OTP generated and sent successfully']);
+    // }
+
 }
